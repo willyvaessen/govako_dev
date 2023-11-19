@@ -6,8 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
-
 mydb_govako = mysql.connector.connect(
     host="pi4B1",
     database=os.getenv('DB_NAME'),
